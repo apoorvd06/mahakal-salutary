@@ -204,6 +204,11 @@ st.markdown('<div class="section-note">Select the area you need help with. Our t
 
 cols = st.columns(3, gap="large")
 for col, item in zip(cols, domains):
+    audience_html = (
+    f'<div class="card-audience">{item["audience"]}</div>'
+    if item.get("audience")
+    else ""
+)
     with col:
         st.markdown(
             f"""
