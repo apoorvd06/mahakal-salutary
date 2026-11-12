@@ -217,7 +217,7 @@ for col, item in zip(cols, domains):
               <div class="card-tag">{item['tag']}</div>
               <div class="card-title">{item['title']}</div>
               <div class="card-description">{item['description']}</div>
-              <div class="card-audience">{item['audience']}</div>
+              {f'<div class="card-audience">{item.get("audience", "")}</div>' if item.get("audience") else ""}
             </div>
             """,
             unsafe_allow_html=True,
