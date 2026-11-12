@@ -16,7 +16,7 @@ SUBTITLE = "CONSULTANCY HUB"
 PHONE_DISPLAY = "+91 77769 26925"
 PHONE_DIGITS = "917776926925"
 ADDRESS = "31 A, Gurudatta Colony, Narendra Nagar, Nagpur, Maharashtra"
-CONTACT_PERSON = "Mona Deshmukh"
+CONTACT_PERSON = "Monika Barange"
 
 # Replace these descriptions/contact prompts as the business offerings are finalized.
 # Each enquiry link opens WhatsApp to Mona Deshmukh with a service-specific pre-filled message.
@@ -29,7 +29,6 @@ domains = [
             "Build practical skills and take the next step in your professional journey. "
             "Our skill-development offering is intended for learners and working individuals."
         ),
-        "audience": "Suggested age group: 18–40 years",
         "cta": "Enquire about skill development",
         "message": "Hello, I would like to know more about Skill Development programmes.",
     },
@@ -53,7 +52,6 @@ domains = [
             "Get guidance while exploring colleges and courses. The service is intended "
             "for students considering their higher-education options."
         ),
-        "audience": "Suggested age group: 17–25 years",
         "cta": "Enquire about admissions",
         "message": "Hello, I would like information about college and course admission guidance.",
     },
