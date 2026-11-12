@@ -1,4 +1,4 @@
-# Mahakal Salutary Consultancy Hub — Website v1
+# Mahakal Salutary Consultancy Hub — Website 
 
 A branded Streamlit landing page for three service verticals under one Mahakal Salutary identity:
 - Skill Development (Pan India; suggested age group 18–40)
